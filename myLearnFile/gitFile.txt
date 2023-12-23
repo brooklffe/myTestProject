@@ -15,4 +15,4 @@ git branch
 git branch xxxx
 8、切换分支
 git checkout xxxx
-bug分支
+dev分支
