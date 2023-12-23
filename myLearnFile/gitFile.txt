@@ -15,6 +15,7 @@
     git branch xxxx
 8、切换分支
     git checkout xxxx
-    dev分支
 9、合并分支
     git merge xx分支名称
+dev分支开发了新功能
+
