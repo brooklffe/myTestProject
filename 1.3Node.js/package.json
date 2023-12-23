@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "json-2-csv": "^5.0.1"
+  }
+}
