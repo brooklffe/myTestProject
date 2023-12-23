@@ -1,13 +1,20 @@
 1、查看文件状态
-git status
+    git status
 2、全部文件增加到待提交区域
-git add .
+    git add .
 3、提交版本
-git commit -m "v0.1"
+    git commit -m "v0.1"
 4、版本回滚
-git reset --hard 版本唯一表示
+    git reset --hard 版本唯一表示
 5、回滚后的版本重新找回(找到多次修改记录)
-git reflog
-git reset --hard 回滚的版本标识
-合并分支
-git merge xx分支名称
+    git reflog
+    ßgit reset --hard 回滚的版本标识
+6、查看所在分支
+    git branch
+7、创建分支
+    git branch xxxx
+8、切换分支
+    git checkout xxxx
+    dev分支
+9、合并分支
+    git merge xx分支名称
