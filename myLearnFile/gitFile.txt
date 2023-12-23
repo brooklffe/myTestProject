@@ -9,3 +9,5 @@ git reset --hard 版本唯一表示
 5、回滚后的版本重新找回(找到多次修改记录)
 git reflog
 git reset --hard 回滚的版本标识
+合并分支
+git merge xx分支名称
