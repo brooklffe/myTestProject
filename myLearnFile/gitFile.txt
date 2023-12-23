@@ -17,5 +17,12 @@
     git checkout xxxx
 9、合并分支
     git merge xx分支名称
-dev分支开发了新功能
-
+10、git 上传
+    给远程仓库起一个名字
+    git remote add origin https://github.com/brooklffe/myTestProject.git
+    上传本地某个分支
+    git push -u origin dev
+11、git 拉代码
+    git clone 远程仓库地址（内部实现了别名）
+    切换分支
+    git checkout 分支
