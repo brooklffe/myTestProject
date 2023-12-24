@@ -23,6 +23,7 @@
     上传本地某个分支
     git push -u origin dev
 11、git 拉代码
-    git clone 远程仓库地址（内部实现了别名）
+    git clone 远程仓库地址（内部实现了别名） 第一次拉全部代码
     切换分支
     git checkout 分支
+    git pull origin dev  //从origin的dev分支拉代码更新
