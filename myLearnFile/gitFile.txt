@@ -27,3 +27,8 @@
     切换分支
     git checkout 分支
     git pull origin dev  //从origin的dev分支拉代码更新
+gitrebase：设置ji xian
+git rebase -i  版本标识  当前到xxx版本标识进行合并
+git rebase -i HEAD-3   从当前倒数n个 进行合并
+命令执行后按说明进行vim编辑提示你如何合并,并且编辑版本信息
+rebase 一般不要将已经push生产环境的 在开发环境进行rebase 
