@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/common.css">
+</head>
+<body>
+    <h1>这是一个注册页面</h1>
+    <form method="get"  action="/do/reg">
+        <h3>账号信息</h3>
+            First name : <input type="text" size ="20" name="firstname"><br>
+            Last name : <input type="text" size="20" name="lastname"><br>
+            password : <input type="password" name="pwd">
+        <h3>其它信息</h3>
+            性别:
+            <input type="radio" name="sex" value="male">male
+            <input type="radio" name="sex" value="Female">Female<br>
+            爱好（可以选择一个或多个）<br>
+            <input type="checkbox" name="hobby" value="eat_apple">eat_apple<br>
+            <input type="checkbox" name="hobby" value="drink_coco_cola">drink_coco_cola<br>
+            <input type="checkbox" name="hobby" value="drink_tea">drink_tea<br>
+            <a href="">其它</a><br>
+            喜爱的运动
+            <input type="checkbox" name="like" id="1">篮球
+            <input type="checkbox" name="like" id="2">乒乓球 <br>
+            <input type="month" name="month" id="1"> 出生年月 <br>
+        以下是一个搜索框测试
+        <input type="search" name="search" id=""> <br>
+        喜欢的颜色
+        <input type="color" name="color" id=""><br>
+        出生时间：
+
+        <input type="datetime" name="datetime" id=""><br>
+        邮箱：
+        <input type="email" name="email" id=""><br>
+        当前时间：
+        <input type="datetime-local" name="" id=""><br>
+        <!-- <h3> 测试内容</h3>
+        <div>
+            这是一个测试区域
+            <input type="text" name="test1" >测试form中的div数据能否被提交或清空
+            <div>
+                <input type="text_div" name="test2" >测试form中的div中的div数据能否被提交或清空
+
+            </div>
+        </div> -->
+        以下是button类型的submit 应该没效果
+        <input type="button" value="Submit">
+        以下是submit类型的submit
+        <input type="submit" value="提交注册信息">
+        <br>
+        <button type="reset">清空</button>
+        
+
+
+
+    </form>
+
+    <form action="/do/reg"  method="post">
+        <input type="text" name="test1" id="1">输入
+        <input type="submit" value="submit2">
+    </form>
+    <a href="/login.html">返回登陆页面</a>
+    
+    <h1>这是一个注册页面 测试post</h1>
+    <form method="post"  action="/do/reg">
+        <h3 class="color">账号信息</h3>
+            First name : <input type="text" size ="20" name="firstname"><br>
+            Last name : <input type="text" size="20" name="lastname"><br>
+            password : <input type="password" name="pwd">
+        <h3>其它信息</h3>
+            性别:
+            <input type="radio" name="sex" value="male">male
+            <input type="radio" name="sex" value="Female">Female<br>
+            爱好（可以选择一个或多个）<br>
+            <input type="checkbox" name="hobby" value="eat_apple">eat_apple<br>
+            <input type="checkbox" name="hobby" value="drink_coco_cola">drink_coco_cola<br>
+            <input type="checkbox" name="hobby" value="drink_tea">drink_tea<br>
+            <a href="">其它</a><br>
+            喜爱的运动
+            <input type="checkbox" name="like" id="1">篮球
+            <input type="checkbox" name="like" id="2">乒乓球 <br>
+            <input type="month" name="month" id="1"> 出生年月 <br>
+        以下是一个搜索框测试
+        <input type="search" name="search" id=""> <br>
+        喜欢的颜色
+        <input type="color" name="color" id=""><br>
+        出生时间：
+
+        <input type="datetime" name="datetime" id=""><br>
+        邮箱：
+        <input type="email" name="email" id=""><br>
+        当前时间：
+        <input type="datetime-local" name="" id=""><br>
+        <!-- <h3> 测试内容</h3>
+        <div>
+            这是一个测试区域
+            <input type="text" name="test1" >测试form中的div数据能否被提交或清空
+            <div>
+                <input type="text_div" name="test2" >测试form中的div中的div数据能否被提交或清空
+
+            </div>
+        </div> -->
+        以下是button类型的submit 应该没效果
+        <input type="button" value="Submit">
+        以下是submit类型的submit
+        <input type="submit" value="提交注册信息">
+        <br>
+        <button type="reset">清空</button>
+        
+
+
+
+    </form>
+</body>
+</html>
